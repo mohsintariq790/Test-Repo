@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components{
+    body{
+        @apply w-screen h-screen overflow-hidden
+    }
+}
